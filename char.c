@@ -2,13 +2,11 @@
 
 char getNumber3 (void)
 {
-	
 	return 127;
 }
 
 unsigned char getPositiveNumber (void)
 {
-	
 	return 127;
 }
 

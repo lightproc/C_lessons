@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define SIZE 4
+// ubuntu
 
 void showArrayAddresses(float array[])
 {

@@ -50,7 +50,8 @@ int main(void)
 	size_t charSize = sizeof(char);
 	size_t intSize = sizeof(int);
 
-	// марке %zu используется, чтобы вывести размер в байтах.
+	// маркер %zu используется, чтобы вывести размер в байтах. Не работает в 
+	// Windows.
 	printf("\nFloat type size: %zu bytes\n", floatSize);
 	printf("Char type size: %zu bytes\n", charSize);
 	printf("Int type size: %zu bytes\n", intSize);
